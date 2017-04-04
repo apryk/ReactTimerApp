@@ -9,5 +9,12 @@ export default StyleSheet.create({
   },
   'top-bar menu-text': {
     'color': 'white'
+  },
+  'top-bar menu > menu-text > a': {
+    'display': 'inline',
+    'padding': [{ 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }, { 'unit': 'px', 'value': 0 }]
+  },
+  'top-bar active-link': {
+    'fontWeight': 'bold'
   }
 });
