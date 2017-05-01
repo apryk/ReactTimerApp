@@ -32,5 +32,15 @@ export default StyleSheet.create({
     'color': 'white',
     'fontSize': [{ 'unit': 'rem', 'value': 2.25 }],
     'fontWeight': '300'
+  },
+  'controls': {
+    'display': 'flex',
+    'justifyContent': 'center'
+  },
+  'controls button': {
+    'padding': [{ 'unit': 'rem', 'value': 0.75 }, { 'unit': 'rem', 'value': 3 }, { 'unit': 'rem', 'value': 0.75 }, { 'unit': 'rem', 'value': 3 }]
+  },
+  'controls button:first-child': {
+    'marginRight': [{ 'unit': 'rem', 'value': 1.5 }]
   }
 });
